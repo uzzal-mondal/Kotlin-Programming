@@ -1,5 +1,8 @@
- Kotlin Basic
-Create Kotlin file, main function , print something
+# Kotlin Basic With OOP and some Problem Solving
+
+
+
+# Create Kotlin file, main function , print something
 
 Ex: package FebruaryKOTLIN
 
@@ -9,12 +12,12 @@ Ex: package FebruaryKOTLIN
 
  */
 
- fun main(args: Array<String>){
+# fun main(args: Array<String>){
 
      println("my Techoners")
  }
 
- Var- variable, res – variable name,  String – Datatype – Techoners – value,  we have to done println res and res length
+#  Var- variable, res – variable name,  String – Datatype – Techoners – value,  we have to done println res and res length
 1.	Multi line comments - /* */
 
 2.	Single line comments - //
@@ -35,7 +38,7 @@ Ex: package FebruaryKOTLIN
 
 9.	Println – user write to in a here and show the program by console.
 
-Tutorial  :  1
+# Tutorial  :  1
 
 package FebruaryKOTLIN
 
@@ -45,7 +48,7 @@ package FebruaryKOTLIN
 
  */
 
-fun main (args:Array<String>){
+# fun main (args:Array<String>){
 
     println("My Techoners is awesome place to day by day learning progress");
     System.out.println("Kotlin is wonder , cause of no null point exception.");
@@ -78,7 +81,7 @@ fun main (args:Array<String>){
 }
 
 
-Kotlin Basic /type – 0 2
+# Kotlin Basic /type – 0 2
 
 package FebruaryKOTLIN
 
@@ -190,16 +193,17 @@ Hello!I am escaped String!
 
 Hey!!I am Raw String!
 Arrays
-Arrays are a collection of homogeneous data. Like Java, Kotlin supports arrays of different data types. In the following example, we will make use of different arrays.
+# Arrays are a collection of homogeneous data. Like Java, Kotlin supports arrays of different data types. In the following example, we will make use of different arrays.
  Live Demo
 fun main(args: Array<String>) {
    val numbers: IntArray = intArrayOf(1, 2, 3, 4, 5)
    println("Hey!! I am array Example"+numbers[2])
 }
-The above piece of code yields the following output. The indexing of the array is similar to other programming languages. Here, we are searching for a second index, whose value is “3”.
+# The above piece of code yields the following output. The indexing of the array is similar to other programming languages. Here, we are searching for a second index, whose value is “3”.
 Hey!! I am array Example3
 Collections
-Collection is a very important part of the data structure, which makes the software development easy for engineers. Kotlin has two types of collection - one is immutable collection (which means lists, maps and sets that cannot be editable) and another is mutable collection (this type of collection is editable). It is very important to keep in mind the type of collection used in your application, as Kotlin system does not represent any specific difference in them.
+	
+# Collection is a very important part of the data structure, which makes the software development easy for engineers. Kotlin has two types of collection - one is immutable collection (which means lists, maps and sets that cannot be editable) and another is mutable collection (this type of collection is editable). It is very important to keep in mind the type of collection used in your application, as Kotlin system does not represent any specific difference in them.
  Live Demo
 fun main(args: Array<String>) { 
    val numbers: MutableList<Int> = mutableListOf(1, 2, 3) //mutable List 
@@ -215,7 +219,7 @@ The above piece of code will yield the following output in the browser. It gives
 main.kt:9:18: error: unresolved reference: clear
    readOnlyView.clear()    // -> does not compile  
                  ^
-In collection, Kotlin provides some useful methods such as first(), last(), filter(), etc. All these methods are self-descriptive and easy to implement. Moreover, Kotlin follows the same structure such as Java while implementing collection. You are free to implement any collection of your choice such as Map and Set.
+# In collection, Kotlin provides some useful methods such as first(), last(), filter(), etc. All these methods are self-descriptive and easy to implement. Moreover, Kotlin follows the same structure such as Java while implementing collection. You are free to implement any collection of your choice such as Map and Set.
 In the following example, we have implemented Map and Set using different built-in methods.
  Live Demo
 fun main(args: Array<String>) {
@@ -238,7 +242,7 @@ Even Numbers of our List----[2, 4]
 1
 My Set Values are[a, b, c]
 Ranges
-Ranges is another unique characteristic of Kotlin. Like Haskell, it provides an operator that helps you iterate through a range. Internally, it is implemented using rangeTo() and its operator form is (..).
+# Ranges is another unique characteristic of Kotlin. Like Haskell, it provides an operator that helps you iterate through a range. Internally, it is implemented using rangeTo() and its operator form is (..).
 In the following example, we will see how Kotlin interprets this range operator.
  Live Demo
 fun main(args: Array<String>) {
@@ -255,7 +259,7 @@ fun main(args: Array<String>) {
 
 Collection & Range : -03
 Collection and range
-Collection is a very important part of the data structure, which makes the software development easy for engineers. Kotlin has two types of collection - one is immutable collection (which means lists, maps and sets that cannot be editable) and another is mutable collection (this type of collection is editable). It is very important to keep in mind the type of collection used in your application, as Kotlin system does not represent any specific difference in them.
+# Collection is a very important part of the data structure, which makes the software development easy for engineers. Kotlin has two types of collection - one is immutable collection (which means lists, maps and sets that cannot be editable) and another is mutable collection (this type of collection is editable). It is very important to keep in mind the type of collection used in your application, as Kotlin system does not represent any specific difference in them.
 
 fun main(args: Array<String>) { 
    val numbers: MutableList<Int> = mutableListOf(1, 2, 3) //mutable List 
@@ -271,7 +275,7 @@ Output:
 my mutable list [1, 2, 3]
 my mutable list of after addition : [1, 2, 3, 4]
 [1, 2, 3, 4]
-In collection, Kotlin provides some useful methods such as first(), last(), filter(), etc. All these methods are self-descriptive and easy to implement. Moreover, Kotlin follows the same structure such as Java while implementing collection. You are free to implement any collection of your choice such as Map and Set.
+# In collection, Kotlin provides some useful methods such as first(), last(), filter(), etc. All these methods are self-descriptive and easy to implement. Moreover, Kotlin follows the same structure such as Java while implementing collection. You are free to implement any collection of your choice such as Map and Set.
 In the following example, we have implemented Map and Set using different built-in methods.
 
 package FebruaryKOTLIN
@@ -303,7 +307,7 @@ fun main(args:Array<String>){
 }
 
 
-Range:
+# Range:
 
 package FebruaryKOTLIN
 
@@ -323,7 +327,7 @@ fun main(args:Array<String>){
 
 
 
-Kotlin Part : 02
+# Kotlin Part : 02
 Kotlin User Input
 1.	Java te Scanner / buffer reader use kore input neoa ta familiar.
 
@@ -381,7 +385,7 @@ fun main(args:Array<String>){
 
 
 
-Kotlin Part: 03
+# Kotlin Part: 03
 Kotlin Data type and variable
 1.	Long
 2.	Integer
@@ -408,7 +412,7 @@ Kotlin Data type and variable
 
 
 
-Kotlin When Key Word
+# Kotlin When Key Word
 Like java switch.
 Switch , case , break , default
 When(num) then body, case to add body
@@ -444,7 +448,7 @@ fun main(args:Array<String>){
 
 
 
-Kotlin Naming Conversation
+# Kotlin Naming Conversation
 Programming amara onek kisu name dei :-
 1.package   2.Class    3. Interface
 4.method / function    5.variables 6. Constants
@@ -456,22 +460,22 @@ Ex: package name:-
    					com.uzzal_kotlin_project
 
 
-2. Class Name: -  class name all time captital letter diye start hoy. And camel case join to multiple words.
+#2. Class Name: -  class name all time captital letter diye start hoy. And camel case join to multiple words.
 
 Ex: Student
 StudentInformationProject
 
-3. Interface Name: - Interface name and class name same way to use this programming.
+# 3. Interface Name: - Interface name and class name same way to use this programming.
 Interface and class name start to Upper case letter and multiple line join to camel case letter.
 Ex: Data
 Ex: DataInformation
 
-4. Method name start  to lower case letter, 
+# 4. Method name start  to lower case letter, 
 And join to camel case multiple words.
 Ex: myPen();   println(),  myBookReadding();
 
 
-Variables name:-  lower case uset to starting , next Uppercase use to join multiple class.
+# Variables name:-  lower case uset to starting , next Uppercase use to join multiple class.
 Ex: myComputer;    learnJavaBook;
 
 Constants Name: ALL CLASS USE TO UPPER CASE. WITH JOIN TO MULTIPLE CLASS USE TO UNDER SCORE  UPPER CASE.
@@ -479,7 +483,7 @@ Constants Name: ALL CLASS USE TO UPPER CASE. WITH JOIN TO MULTIPLE CLASS USE TO 
 EX: MY_BOOK_JAVA_LEARNING;
 EX:  BOOK 
 
-Bitwise Operator
+# Bitwise Operator
 1.	Amara Jani amader computer bit niye kaj kore. Sorasori bit niye j operator kaj kore take bola hoy bitwise operator.
 2.	
 
@@ -499,7 +503,7 @@ Bitwise Operator
 7.	Bitwise 		(a shr 2)
 
 
-Bitwise and operator:-
+# Bitwise and operator:-
        
 
 Bitwise and      operator holo akta num ke arek ta num er sathe gun kora. Then amder convert korte hobe decimal a.   
@@ -510,7 +514,7 @@ Bitwise and      operator holo akta num ke arek ta num er sathe gun kora. Then a
 
 
 
-Bitwise | operator:
+# Bitwise | operator:
 Bitwise | operator holo akta num er sathe arekta num er  (add/jog)  kora. Orthat konota Jodi 1 hoy at least ter  num hobe 1.   Konta check kore 1 hole ter num 1.
 
    
@@ -525,7 +529,7 @@ Bitwise | operator holo akta num er sathe arekta num er  (add/jog)  kora. Orthat
 
 
 
-Bitwise xor(^) operator:
+# Bitwise xor(^) operator:
 Bitwise xor operator holo akta num and onno akta num Jodi alada alada hoy, and kono akta num Jodi bijor numbder hoye thake tokon amara tahke bitwise xor operator bole thakbooo… Jodi akoi num hoy then 1,1 hoy tokon vinnoo na howar karone 0 hobe..
 
 
@@ -534,7 +538,7 @@ Bitwise xor operator holo akta num and onno akta num Jodi alada alada hoy, and k
 
 
 Tokon calculate kore amara binary to decimal a convert korbo…
-Bitwise leftShift operator:
+# Bitwise leftShift operator:
 J kono num(25) binary ber korar por , right er 2 ta bit khali kore dibo and oviously 0 0 dara purno kore 
 
 
@@ -554,7 +558,7 @@ whit binary to decimal convert korboo………………@
 
 
 
-                                       Programming
+                                      # Programming
 package FeburaryJAVA;
 
 public class BitwiseOperator {
@@ -591,7 +595,7 @@ public class BitwiseOperator {
 }
 
 
-Range operator in Kotlin:-  16.02.19
+# Range operator in Kotlin:-  16.02.19
 Range:
 1.	Range operator.
 2.	Reversed method .
@@ -617,28 +621,28 @@ Ex: var range = 1..10;
 
 7.	Mojar bapar holo Jodi amara 1 step ba 2 step print korte try kori tahole amara step keyword ti use korte pari.
 
-                          Reverse method 
+ #  Reverse method 
 
-1.	Reverse to menthod er kaj holo sob gulo num ultano..
+# 1.	Reverse to menthod er kaj holo sob gulo num ultano..
 Ex: Range.reverse.forEach{print(“$it”)}
 
-2.	 Reverse er jagai amara downto ei method ti   use korte pari.
+# 2.	 Reverse er jagai amara downto ei method ti   use korte pari.
 //downto
 var ranged  = 10.downTo (1);
 ranged.forEach { println("$it") }
 
 
 
-Until method
+# Until method
 1.	Until method ti range er moton akti function jar boundar range er theke 1 kom hoy.
 Ex: //until method ..
 var ran = 1.until(15);
 ran.forEach { print("$it,") }
 
-2.	Kotlin a range too much important matter’s range use kore amara array/arrayList/loop er kaj gulo o korte pari…..
+# 2. Kotlin a range too much important matter’s range use kore amara array/arrayList/loop er kaj gulo o korte pari…..
 
 
-Basic Kotlin Conditional Statement Learn If – Else     17/02/19
+# Basic Kotlin Conditional Statement Learn If – Else     17/02/19
 1.	Java if else Kotlin if else there is no different but only one major problem can through.:-
 
 package FebruaryKOTLIN
@@ -708,7 +712,7 @@ fun main(args:Array<String>){
 
 
 
-Cappital and Small letter Kotlin
+# Cappital and Small letter Kotlin
 
 package Java67Today
 
@@ -735,7 +739,7 @@ fun main(args:Array<String>){
 
 }
 
-Kotlin Even Odd Problem
+# Kotlin Even Odd Problem
 1.	Scanner class get this input .
 2.	Koto num nisi user input niye print korsi
 3.	Sei num er sathe condition make korsi. 
@@ -770,7 +774,7 @@ fun main(args:Array<String>){
 
 }
 
-Kotlin Consonant vowel
+# Kotlin Consonant vowel
 1.	Scanner class k call kore input neyesi
 2.	Akta variable a rekhe sc.next()[0] 
 0 tomo posoiton make korsi.
@@ -824,7 +828,7 @@ fun main (args: Array<String>){
 }
 
 
-Kotlin Max and Min Number:
+# Kotlin Max and Min Number:
 1.num2 theke num1 boro seta holo Maximum num num1>num2
 2. num1 er theke jeta num2 boro seta holo minimum number . num2>num1
 package Java67Today
@@ -858,7 +862,7 @@ fun main(args:Array<String>){
 
 }
 
-Kotlin Possitve Negative num
+# Kotlin Possitve Negative num
 package Java67Today
 
 import java.util.*
@@ -954,7 +958,7 @@ fun main(args: Array<String>) {
 
 }
 
-Leap year 19.02.19
+# kotlin Leap year 19.02.19
 
 package Java67Today
 
@@ -988,14 +992,14 @@ fun main(args: Array<String>) {
 
 
 
-Kotlin for Loop
+# Kotlin for Loop
 1.	There are three kinds of loop
 #for loop, while loop, doWhileloop
 
 
 
 
-For loop:
+# For loop:
 
 # for loop use korte hole fast for keyword 
 
@@ -1043,20 +1047,20 @@ for (i in 1..5){
 }
 }
 
-1.	Fast i er value ta 0 asign kore nibe. For loop er kehettre ei i er value ta akbari assign hoy. Bar bar ei  -  i  -  er j value kaj korbena.
+# 1.	Fast i er value ta 0 asign kore nibe. For loop er kehettre ei i er value ta akbari assign hoy. Bar bar ei  -  i  -  er j value kaj korbena.
 
-2.	Condtion check korbe j amder condition true ki false jehetu I er man 0 e khettre condition true hobe. Karon 0 , 5 er theke soto.
+# 2.	Condtion check korbe j amder condition true ki false jehetu I er man 0 e khettre condition true hobe. Karon 0 , 5 er theke soto.
 
-3.	Akon i er value ak barbe , ekhane amara post increment operator ti use korsi. 
+# 3.	Akon i er value ak barbe , ekhane amara post increment operator ti use korsi. 
 
-4.	Akon i er man 1 barbe kintuo ei loop er moddhe i er man 0 ei thakbe. Post increment a i er man jokon pore pai tokon barte thake. Jehetu eta post increment e joonoo barbena.
+# 4.	Akon i er man 1 barbe kintuo ei loop er moddhe i er man 0 ei thakbe. Post increment a i er man jokon pore pai tokon barte thake. Jehetu eta post increment e joonoo barbena.
 
-5.	Compile akon loop for er vitore dukhbe. And condition ta check korbe, condition Jodi true hoy tahole print korbe. E khettre condition true. Tai 0 print korbe.
+# 5.	Compile akon loop for er vitore dukhbe. And condition ta check korbe, condition Jodi true hoy tahole print korbe. E khettre condition true. Tai 0 print korbe.
 
 
-6.	Kintuo akon r i er value 0 eta ar assign korbena 
+# 6.	Kintuo akon r i er value 0 eta ar assign korbena 
 
-Kotlin When Statement
+# Kotlin When Statement
 
 
 package FeburaryJAVA
@@ -1096,7 +1100,7 @@ fun main(args:Array<String>){
 }
 
 
-// new programming when in Kotlin......  2  @@@@@@@@@@@@@@@ .......
+# new programming when in Kotlin......  2  @@@@@@@@@@@@@@@ .......
 
 
 
@@ -1147,7 +1151,7 @@ object SwitchExam {
 }
 
 
-// new programming when in Kotlin......  3 @@@@@@@@@@@@   .......
+# new programming when in Kotlin......  3 @@@@@@@@@@@@   .......
 
 
 package FeburaryJAVA
@@ -1189,7 +1193,7 @@ fun main(args:Array<String>){
 
 
 
-// new programming when in Kotlin.....4.......@@@@@@@@@@@@
+# new programming when in Kotlin.....4.......@@@@@@@@@@@@
 
 
 package FeburaryJAVA
@@ -1229,7 +1233,7 @@ fun main(args: Array<String>) {
 }
 
 
-// switch case to noe of 5 Kotlin....@@@@@@@@@
+# switch case to noe of 5 Kotlin....@@@@@@@@@
 package FeburaryJAVA
 
 import java.util.Scanner
@@ -1268,25 +1272,25 @@ object SwitchTextPoint {
 }
 
 
-Kotlin For Loop : 23/02/19
+# Kotlin For Loop : 23/02/19
 1.	Kotlin er for loop kisuta java er for each loop er moton kaj kore.
 
 2.	# First for keyword.-for
-# second parentthisis –for()
-# third counter variable –for(i)
-# i declare ba intilize korar projon nei.
-# in -  operator dibo condition do work.
-# then akta range dite hobe - 1.10
+ second parentthisis –for()
+ third counter variable –for(i)
+ i declare ba intilize korar projon nei.
+ in -  operator dibo condition do work.
+ then akta range dite hobe - 1.10
 
-For(i in 1..10)
+# For(i in 1..10)
 
-3.	Jodi amara 2/3 step kore print korte chaitam. Tahole amader step keyword ti use korte hoto. Er mane holo counter variable er man 2 step kore increment holo.
+# 3.	Jodi amara 2/3 step kore print korte chaitam. Tahole amader step keyword ti use korte hoto. Er mane holo counter variable er man 2 step kore increment holo.
 
 
-4.	Array for loop aply
+# 4.	Array for loop aply
 var arr = arrayOf(5,20,30,35,50)
 
-5.	Print kore dakbo print korar jonno same way te for loop chaliyesi. Kitnuoo range neaor kono projon nei. Karon array neijei range er moton kaj korbe.
+# 5.	Print kore dakbo print korar jonno same way te for loop chaliyesi. Kitnuoo range neaor kono projon nei. Karon array neijei range er moton kaj korbe.
 
 6.	for(i in arr){
 println(“$i”)
@@ -1307,9 +1311,8 @@ amara ekhane array er index i and value array er i ti print korte parbo.
 
 12.	Nested loop onek beshi kaje lage jokon amara 2 dimentional array niye kaj korboo.
 
-Example in for loop
-Twinkle cat’s
-package FebruaryKOTLIN
+# Example in for loop
+
 
 fun main(args: Array<String>){
 
@@ -1326,7 +1329,7 @@ fun main(args: Array<String>){
         println()
     }
 
-         // for loop array
+   # // for loop array
 
 //    var arr = arrayOf(10,105,20,30);
 //
@@ -1337,7 +1340,7 @@ fun main(args: Array<String>){
 //
 //    }
 
-             // for loop
+   #  // for loop
 
 //     for (i in 1..10){
 //
@@ -1359,7 +1362,7 @@ fun main(args: Array<String>){
 
 
 
-Kotlin For Loop Programming
+# Kotlin For Loop Programming
 1.	For keyword thakbe. Then parent thisis.
 2.	i er akta counter value tahkbe.. but intilize korar projon nei
 3.	in operator thakbe condition hesabe kaj kore.
@@ -1369,7 +1372,7 @@ Kotlin For Loop Programming
 7.	
 
 
-Whiel and Do While Loop in Kotlin
+# Whiel and Do While Loop in Kotlin
 
 1.	For loop use kori amder range ta janar jonno. Amder loop ta koto bar chelate hobe.
 
@@ -1421,7 +1424,7 @@ i++;
 # erpor condition check korbe condition Jodi true hoy tahole abar do er starting a back jabe r Jodi mittha hoy tahole ekheanei loop ta terminate hoye jabe.
 
 
-Kotlin Array:-
+# Kotlin Array:-
 1.	Array akti data sturucter . jeta onek gulo data aksate dhore rakhte pare. Tobe data gulo akoi typer hoto hobe.
 
 2.	Array akoi sathe onek gulo data dharon kore rakhte pare. Koto gulo data dharon korbe seta amkei bole dite hobe.
@@ -1449,8 +1452,8 @@ for (i in array){
 
 10.	Kotlin a length bole kisui nai ekhane just arra.size use korte hobe.
 
-Kotlin: Lecture 18(B) Mostly Used Array Functions Bangla | Learn How to Use
- Kotlin Array Basic Functions
+# Kotlin: Lecture 18(B) Mostly Used Array Functions Bangla | Learn How to Use Kotlin Array Basic Functions
+    
 
 1.	  Fill function – fiil function muloto array te fill function kajer jonno use kora hoy.
 
@@ -1480,8 +1483,7 @@ Res.foreach{print(“array of rev : $it , ”)}
 
 Ermane 2 no index theke 4 no index projontoo call korte saisi.
 
-       					Example: 
-							of Array….
+  # Example: of Array….
 
 package FebruaryKOTLIN
 
@@ -1527,9 +1529,9 @@ fun main(args:Array<String>){
 
 
  
-Example
+# Example
 1.	Fast array of:- 
-# fastly value diye ei array er kaj gulo korte hoy.
+ fastly value diye ei array er kaj gulo korte hoy.
 
 var arr = arrayOf(10,20,30,40,50);
 
@@ -1542,11 +1544,11 @@ for (i in arr){
 
 
 2.	Second array of:-
-# value na diyeo kaj korar akta way ase.
+ value na diyeo kaj korar akta way ase.
 
-#  int arrayOf nibo jer vitore kono value assign korbona.
+  int arrayOf nibo jer vitore kono value assign korbona.
 
-#next value assign korar jonno amar akta function er help nite hobe. Seta hose plus function. Notun array ta appeand kore new array ta return kore.
+# next value assign korar jonno amar akta function er help nite hobe. Seta hose plus function. Notun array ta appeand kore new array ta return kore.
 
 package FebruaryKOTLIN
 
@@ -1587,7 +1589,7 @@ fun main(args:Array<String>){
 
 
 
-5.when expression array:-
+# 5.when expression array:-
 package FebruaryKOTLIN
 
 fun main(args:Array<String>){
@@ -1641,8 +1643,8 @@ fun main(args:Array<String>){
 
 6.New array still then reverse aray print and ei aray akti array return kore.
 
-#orginal array change hobena.
-package FebruaryKOTLIN
+# orginal array change hobena.
+
 
 fun main(args:Array<String>){
 
@@ -1699,7 +1701,7 @@ fun main(args:Array<String>){
 
 }
 8.Slice array();
-#akta array er moddhe ba nirdisto kisu length er projon hoy tahole amara slice function ta use korte parbo.
+akta array er moddhe ba nirdisto kisu length er projon hoy tahole amara slice function ta use korte parbo.
 Example:- 
 package FebruaryKOTLIN
 
@@ -1731,7 +1733,7 @@ fun main(args:Array<String>){
 
 
 
-Basic Concepts of 2D Array
+# Basic Concepts of 2D Array
 
 1.	Matrix niye kaj korte hole sure jeta projon seta holo 2 dimontional aray.
 
@@ -1739,14 +1741,7 @@ Basic Concepts of 2D Array
 
 3.	J variable er vitore Array rakhlam seta holo amder row. R j variable vitore amder Array er index rakhlam seta holo amder column.
 
-4.	 
-
-
-5.	 
-
-
-
-6.	  
+  
 
 
 
@@ -1780,7 +1775,7 @@ fun main(args: Array<String>) {
     }
 }
 
-3.	Example: - 
+# Example: - 
 4.	
  var array = Array(3, {IntArray(3,{-1 })})
 
@@ -1794,7 +1789,7 @@ for (i in array){
 }
 
 
-5.	 User Input Array Print:--
+# User Input Array Print:--
 
 Indices – array index ta assign hobe..
 
@@ -1834,7 +1829,7 @@ fun main(args: Array<String>) {
 
 }
 
--:String in Kotlin Bangla:-
+# String in Kotlin 
 
 
 1.	 String holo immutable object.
@@ -1856,7 +1851,8 @@ fun main(args: Array<String>) {
 8.	Threepol cottaion er String declear kori tahole amar scype sequence gulo akoi sathe kaj na kore akoi sathe print korbee..
 
 9.	 Length 
-Kotlin function
+
+# Kotlin function
 How to declare function
 
 
@@ -1895,7 +1891,7 @@ fun main (args:Array<String>){
          else  ->  false
      }
 
--:Null Pointer Exception:-
+# Null Pointer Exception:-
 1. null initialize korar projon hole - ?
 2. val name:String? = null;
 
@@ -2010,7 +2006,7 @@ Function
 
 
 
-Null safe function
+# Null safe function
 1.	First data null accept korena.
 2.	Second data null assign korte parbe.
 
